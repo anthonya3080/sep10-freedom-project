@@ -1,29 +1,108 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Law Technology Overview</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .content-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .code-editor-placeholder {
+            background-color: #e9ecef;
+            height: 300px;
+            border-radius: 5px;
+            padding: 10px;
+            font-family: monospace;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
-            
-        </style>
-        
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
-        
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-            
-            
-        </script>
-    </body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">LawTech IDE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+        <li class="nav-item"><a class="nav-link" href="#existing-tech">Existing Tech</a></li>
+        <li class="nav-item"><a class="nav-link" href="#future-tech">Future Tech</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Overview Section -->
+<div class="container" id="overview">
+    <h2 class="section-title">Overview / Context</h2>
+    <div class="content-box">
+        <p>As documents and laws continue to be created at an increasing rate, legal and regulatory systems become more complex and difficult to navigate. This ever-growing body of rules can create confusion not only for ordinary citizens, but also for businesses and even legal professionals who must interpret and apply them correctly. Over time, outdated, overlapping, or contradictory laws can accumulate, making compliance more challenging and increasing the risk of mistakes or unfair enforcement. Because of this, there is a clear need for better systems to manage and organize legal information.</p>
+        <p>Governments and institutions should regularly review existing laws to remove redundancies and update regulations so they remain relevant to modern society. In addition, technological solutions such as digital databases, search tools, and artificial intelligence can play an important role in making legal information more accessible and easier to understand. By simplifying, organizing, and modernizing the way laws and documents are handled, societies can create more transparent, efficient, and fair systems that benefit everyone.</p>
+        <p>You cannot carry all of these documents around with you, and you certainly can't be scrolling for 50 seconds while the judge waits. Plus, if a retrial happens, you might want to record info from the previous trial. However, between representing and listening, you can't jot down notes reliably, and with how fast rulings or arguments are made, human error is always a factor. What happens if someone making notes misinterprets or miscommunicates key information?</p>
+    </div>
+</div>
+
+<!-- Existing Technology Section -->
+<div class="container" id="existing-tech">
+    <h2 class="section-title">Part A: Existing Technology</h2>
+    <div class="content-box">
+        <p>Lawyers already use special software to help sort and manage all the information in their cases. Tools like Relativity can scan huge amounts of documents—emails, files, and messages—and quickly find the ones that might matter. Research platforms such as Westlaw help lawyers look up past cases and laws without spending hours searching manually. Case management apps like Clio keep everything organized, including deadlines, notes, and client information. Some newer tools use AI to read documents and highlight important sections or patterns automatically. This makes it easier to handle large cases with tons of information.</p>
+        <p>Even with all this technology, lawyers still have to review the results and decide what’s actually useful. Just because results are available doesn't mean inconsistencies or legal loopholes can be easily found. Laws vary by state, country, and court, creating gaps that even advanced tools cannot fully solve.</p>
+        <div class="text-center my-3">
+            <img src="image_URL" alt="Relevant image" class="img-fluid rounded">
+        </div>
+    </div>
+</div>
+
+<!-- Future Technology Section -->
+<div class="container" id="future-tech">
+    <h2 class="section-title">Part B: Possible Future Technology</h2>
+    <div class="content-box">
+        <p>An AI-powered archive could categorize and separate existing documents from new ones automatically. It would suggest the best possible solutions, look for inconsistencies, and update users with recommendations such as appeals or filings. It could be localized to your area for relevant laws and reports while searching globally for international cases.</p>
+
+        <!-- Mock device showcasing the future AI -->
+        <div class="d-flex justify-content-center my-4">
+            <div class="border rounded-4 shadow p-3" style="width:200px; height:200px; background-color:#f8f9fa; position: relative;">
+                <!-- Cute face screen -->
+                <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-size:2rem;">
+                    😊
+                </div>
+                <!-- Optional small details/buttons -->
+                <div style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); display:flex; gap:5px;">
+                    <div style="width:20px; height:5px; background:#6c757d; border-radius:2px;"></div>
+                    <div style="width:20px; height:5px; background:#6c757d; border-radius:2px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <p>This small box can travel with you, listen in courtrooms, sort information, and replay important data—all in a compact, portable device. It could store up to a year of information, highlight inconsistencies, and guide lawyers through complex legal processes—making it an indispensable companion for modern legal work.</p>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-4">
+    &copy; 2026 LawTech IDE. All rights reserved.
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
