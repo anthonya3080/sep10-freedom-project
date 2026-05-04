@@ -3,106 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Law Technology Overview</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Law Technology</title>
     <style>
         body {
-            padding-top: 70px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
         }
-        .section-title {
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
-        .content-box {
-            background-color: #f8f9fa;
+
+        header {
+            background-color: #003366;
+            color: #fff;
             padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 30px;
+            text-align: center;
         }
-        .code-editor-placeholder {
-            background-color: #e9ecef;
-            height: 300px;
-            border-radius: 5px;
+
+        nav {
+            background-color: #0055a5;
             padding: 10px;
-            font-family: monospace;
-            overflow-y: auto;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 15px 0;
+        }
+
+        .frame-example {
+            border: 2px solid #333;
+            width: 300px;
+            height: 200px;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e6e6e6;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
         }
     </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">LawTech IDE</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
-        <li class="nav-item"><a class="nav-link" href="#existing-tech">Existing Tech</a></li>
-        <li class="nav-item"><a class="nav-link" href="#future-tech">Future Tech</a></li>
-      </ul>
-    </div>
-  </div>
+<header>
+    <h1>Law Technology</h1>
+</header>
+
+<nav>
+    <a href="#overview">Overview</a>
+    <a href="#existing-tech">Existing Technology</a>
+    <a href="#future-tech">Future Technology</a>
 </nav>
 
-<!-- Overview Section -->
-<div class="container" id="overview">
-    <h2 class="section-title">Overview / Context</h2>
-    <div class="content-box">
-        <p>As documents and laws continue to be created at an increasing rate, legal and regulatory systems become more complex and difficult to navigate. This ever-growing body of rules can create confusion not only for ordinary citizens, but also for businesses and even legal professionals who must interpret and apply them correctly. Over time, outdated, overlapping, or contradictory laws can accumulate, making compliance more challenging and increasing the risk of mistakes or unfair enforcement. Because of this, there is a clear need for better systems to manage and organize legal information.</p>
-        <p>Governments and institutions should regularly review existing laws to remove redundancies and update regulations so they remain relevant to modern society. In addition, technological solutions such as digital databases, search tools, and artificial intelligence can play an important role in making legal information more accessible and easier to understand. By simplifying, organizing, and modernizing the way laws and documents are handled, societies can create more transparent, efficient, and fair systems that benefit everyone.</p>
-        <p>You cannot carry all of these documents around with you, and you certainly can't be scrolling for 50 seconds while the judge waits. Plus, if a retrial happens, you might want to record info from the previous trial. However, between representing and listening, you can't jot down notes reliably, and with how fast rulings or arguments are made, human error is always a factor. What happens if someone making notes misinterprets or miscommunicates key information?</p>
-    </div>
-</div>
+<main>
+    <section id="overview">
+        <h2>Overview/Introduction/Context</h2>
+        <p>As documents and laws continue to be created at an increasing rate, legal and regulatory systems become more complex and difficult to navigate. This ever-growing body of rules can create confusion not only for ordinary citizens, but also for businesses and even legal professionals who must interpret and apply them correctly. Over time, outdated, overlapping, or contradictory laws can accumulate, making compliance more challenging and increasing the risk of mistakes or unfair enforcement. Because of this, there is a clear need for better systems to manage and organize legal information. Governments and institutions should regularly review existing laws to remove reduendanciess and update regulations so they remain relevant to modern society. In addition, technological solutions such as digital databases search tools and artificial intelligence can play an important role in making legal information more accessible and easier to understand. By simplifying,organizing and modernizing the way laws and documents are handled,societies can create more transparent,efficient and fair systems that benefit everyone.and you cnat carry all of these doucments around with you and you certainly cant be scrolillign for 50 secinds while the judge waits plus if a retrail happens you might want to record info from the pervoius trail however between repersenting and litensing you cant jot down notes and with how fast rulesing or agurement are made you cant relie on nay of those notes either as theres even human error to acoount for what happens if your choallge whos jotting down notes make an errior due to miscumminaction or mis interpitation.</p>
+    </section>
 
-<!-- Existing Technology Section -->
-<div class="container" id="existing-tech">
-    <h2 class="section-title">Part A: Existing Technology</h2>
-    <div class="content-box">
-        <p>Lawyers already use special software to help sort and manage all the information in their cases. Tools like Relativity can scan huge amounts of documents—emails, files, and messages—and quickly find the ones that might matter. Research platforms such as Westlaw help lawyers look up past cases and laws without spending hours searching manually. Case management apps like Clio keep everything organized, including deadlines, notes, and client information. Some newer tools use AI to read documents and highlight important sections or patterns automatically. This makes it easier to handle large cases with tons of information.</p>
-        <p>Even with all this technology, lawyers still have to review the results and decide what’s actually useful. Just because results are available doesn't mean inconsistencies or legal loopholes can be easily found. Laws vary by state, country, and court, creating gaps that even advanced tools cannot fully solve.</p>
-        <div class="text-center my-3">
-            <img src="image_URL" alt="Relevant image" class="img-fluid rounded">
+    <section id="existing-tech">
+        <h2>Part A: Existing Technology</h2>
+        <p>Lawyers already use special software to help sort and manage all the information in their cases. Tools like Relativity can scan huge amounts of documents—like emails, files, and messages—and quickly find the ones that might matter. Research platforms such as Westlaw help lawyers look up past cases and laws without spending hours searching manually. Case management apps like Clio keep everything organized, including deadlines, notes, and client information. Some newer tools use AI to read documents and highlight important sections or patterns automatically. This makes it easier to handle large cases with tons of information. Even with all this technology, lawyers still have to review the results and decide what’s actually useful.and just because the results are there dosnet mean thge lawyers can find inconsistanies or even legal loopholes and might need reminders and the law is a vast set of rules and loopholes that even the largest of law firms have trouble remembering plus these usally only search up to the newest dated ones there are mney doucments in the past that are still techially in affect that could help a lwyer with there case plus these arent even that specfic in the fact that diffrent stats country or even courts that have diifenrent rules or regulations so that a massive probalem that even those negines cannot solve</p>
+        <img src="image_URL_here" alt="Relevant legal software example">
+    </section>
+
+    <section id="future-tech">
+        <h2>Part B: Possible Future Technology</h2>
+        <p>I want to make a system where if files info form greatest to least and the way that worksds is by the system reading those documnets and scansingh for inconsistnatics or condractictions It woould look like a small box the connects to a computer where all the files or legal documents are stored and from there it looks at anything that is labelsed as important "Note impotant can mean many diffenrent things so enter key words or pharses that you want to find or topic"</p>
+
+        <p>An archive ai where it sperates existing doucments with new one and they are cataogoraied by the ai and given the best possible soultuion,The ai also looks for any kind of inconsistanlsiy and contatly update syou on where to look and suggestions such as appels to judges and helps you file them out even faster.anjd it can even have a feature to tune it to your very own location and look for local reports to help with the case and to search up any things such as laws or rules that might be an issue and look for doucments decades or a centruy ago that will help you foucs on winnign the case and even look into judges for unfiar baise and or history with malpractice this will also be a world wide seach egine as immergration lawers also need to review other laws in neigborsing or farther out countrys which will help also a ton in international court and with other counties history.The best part of all of this will be that fact of all of this will be that you can travel along with it with it being in a small lkittle box with a protable keybrod touch srecch and ect and can listen into court room meeting and other things if nessacry and sort out and filter what you want ot replay and save up to a yera worth a data.</p>
+
+        <div class="frame-example">
+            <p>3D Model Example: Small Box</p>
         </div>
-    </div>
-</div>
+    </section>
+</main>
 
-<!-- Future Technology Section -->
-<div class="container" id="future-tech">
-    <h2 class="section-title">Part B: Possible Future Technology</h2>
-    <div class="content-box">
-        <p>An AI-powered archive could categorize and separate existing documents from new ones automatically. It would suggest the best possible solutions, look for inconsistencies, and update users with recommendations such as appeals or filings. It could be localized to your area for relevant laws and reports while searching globally for international cases.</p>
-
-        <!-- Mock device showcasing the future AI -->
-        <div class="d-flex justify-content-center my-4">
-            <div class="border rounded-4 shadow p-3" style="width:200px; height:200px; background-color:#f8f9fa; position: relative;">
-                <!-- Cute face screen -->
-                <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; font-size:2rem;">
-                    😊
-                </div>
-                <!-- Optional small details/buttons -->
-                <div style="position:absolute; bottom:10px; left:50%; transform:translateX(-50%); display:flex; gap:5px;">
-                    <div style="width:20px; height:5px; background:#6c757d; border-radius:2px;"></div>
-                    <div style="width:20px; height:5px; background:#6c757d; border-radius:2px;"></div>
-                </div>
-            </div>
-        </div>
-
-        <p>This small box can travel with you, listen in courtrooms, sort information, and replay important data—all in a compact, portable device. It could store up to a year of information, highlight inconsistencies, and guide lawyers through complex legal processes—making it an indispensable companion for modern legal work.</p>
-    </div>
-</div>
-
-<!-- Footer -->
-<footer class="bg-dark text-white text-center py-3 mt-4">
-    &copy; 2026 LawTech IDE. All rights reserved.
+<footer>
+    <p>&copy; 2026 Law Technology</p>
 </footer>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
