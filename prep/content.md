@@ -9,8 +9,7 @@ As documents and laws continue to be created at an increasing rate, legal and re
   * [image text](image URL)
 
 ## Part B: possible future technology
-<<<<<<< HEAD
 I want to make a system where if files info form greatest to least and the way that worksds is by the system reading those documnets and scansingh for inconsistnatics or condractictions It woould look like a small box the connects to a computer where all the files or legal documents are stored and from there it looks at anything that is labelsed as important "Note impotant can mean many diffenrent things so enter key words or pharses that you want to find or topic"
-=======
+
 An archive ai where it sperates existing doucments with new one and they are cataogoraied by the ai and given the best possible soultuion,The ai also looks for any kind of inconsistanlsiy and contatly update syou on where to look and suggestions such as appels to judges and helps you file them out even faster.anjd it can even have a feature to tune it to your very own location and look for local reports to help with the case and to search up any things such as laws or rules that might be an issue and look for doucments decades or a centruy ago that will help you foucs on winnign the case and even look into judges for unfiar baise and or history with malpractice this will also be a world wide seach egine as immergration lawers also need to review other laws in neigborsing or farther out countrys which will help also a ton in international court and with other counties history.The best part of all of this will be that fact that you can travel along with it with it being in a small lkittle box with a protable keybrod touch srecch and ect and can listen into court room meeting and other things if nessacry and sort out and filter what you want ot replay and save up to a yera worth a data.
 >>>>>>> 1a26787ee8a58edff19055449fd9fb3fdf91aff2
