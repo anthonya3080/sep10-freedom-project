@@ -1,14 +1,76 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+    <meta charset="utf-8" />
+    <title>A-Frame Computer Box</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   </head>
+
   <body>
-    <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+    <a-scene background="color: #222">
+
+      <!-- Camera -->
+      <a-entity position="0 1.6 4">
+        <a-camera></a-camera>
+      </a-entity>
+
+      <!-- Lighting -->
+      <a-light type="ambient" color="#BBB"></a-light>
+      <a-light type="directional" intensity="1" position="2 4 2"></a-light>
+
+      <!-- Floor -->
+      <a-plane
+        rotation="-90 0 0"
+        width="20"
+        height="20"
+        color="#555">
+      </a-plane>
+
+      <!-- White Computer Box -->
+      <a-box
+        position="0 1 -2"
+        width="1.6"
+        height="1"
+        depth="1"
+        color="white">
+      </a-box>
+
+      <!-- Screen -->
+      <a-plane
+        position="0 1.1 -1.49"
+        width="1"
+        height="0.55"
+        color="#111">
+      </a-plane>
+
+      <!-- Screen Glow -->
+      <a-plane
+        position="0 1.1 -1.48"
+        width="0.9"
+        height="0.45"
+        color="#4FC3F7">
+      </a-plane>
+
+      <!-- Keyboard Base (Moved in front) -->
+      <a-box
+        position="0 0.55 -0.9"
+        width="0.8"
+        height="0.08"
+        depth="0.35"
+        color="#DDD">
+      </a-box>
+
+      <!-- Keyboard Keys -->
+      <a-box position="-0.2 0.61 -0.8" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+      <a-box position="-0.1 0.61 -0.8" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+      <a-box position="0.0 0.61 -0.8" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+      <a-box position="0.1 0.61 -0.8" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+
+      <a-box position="-0.2 0.61 -1.0" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+      <a-box position="-0.1 0.61 -1.0" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+      <a-box position="0.0 0.61 -1.0" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+      <a-box position="0.1 0.61 -1.0" width="0.08" height="0.02" depth="0.08" color="#999"></a-box>
+
     </a-scene>
   </body>
 </html>
